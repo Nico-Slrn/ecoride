@@ -1,0 +1,20 @@
+{
+  "covoiturages": [
+    {
+      "id": 1,
+      "depart": "Paris",
+      "arrivee": "Lyon",
+      "date": "2025-04-01",
+      "prix": 30,
+      "ecologique": true
+    },
+    {
+      "id": 2,
+      "depart": "Lille",
+      "arrivee": "Marseille",
+      "date": "2025-04-02",
+      "prix": 40,
+      "ecologique": false
+    }
+  ]
+}
