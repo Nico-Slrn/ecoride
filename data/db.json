@@ -16,5 +16,7 @@
       "prix": 40,
       "ecologique": false
     }
-  ]
+  ],
+  "utilisateurs": [],
+  "contacts": []
 }
