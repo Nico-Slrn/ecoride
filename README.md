@@ -1,24 +1,48 @@
-# EcoRide 🌿
+# 🌿 EcoRide - Plateforme de covoiturage écologique
 
-EcoRide est une application web simple de covoiturage écologique développée avec Next.js et React.js.
+Bienvenue dans le dépôt du projet **EcoRide**, une application web développée avec **Next.js** et **React.js**, dans le cadre du **titre professionnel Développeur Web & Web Mobile**.
 
-## 🚀 Fonctionnalités simples :
+## 🚀 Objectif
 
-- Page d'accueil (présentation simple)
-- Liste des covoiturages disponibles
-- Vue détaillée d’un covoiturage
-- Page de connexion / création de compte simplifiée (sans authentification complexe)
-- Page de contact simple (formulaire visuel uniquement)
+EcoRide permet aux utilisateurs de rechercher ou proposer des trajets de covoiturage tout en favorisant les véhicules écologiques.
 
-## 🛠 Technologies utilisées (simplifiées) :
+## 📦 Technologies utilisées
 
-- Next.js / React.js
-- Tailwind CSS pour une stylisation rapide
-- Données mockées dans un fichier JSON (aucune base de données complexe utilisée)
+- Next.js 13
+- React.js
+- Tailwind CSS
+- Stockage JSON local (`data/db.json`)
 
-## ▶️ Lancer le projet en local simplement :
+## ✅ Fonctionnalités réalisées
+
+- Page d'accueil avec recherche visuelle
+- Affichage des covoiturages (liste et détails)
+- Connexion / inscription utilisateur
+- Espace profil avec infos utilisateur et historique
+- Ajout de trajet (chauffeur)
+- Formulaire de contact
+
+## ▶️ Lancer le projet en local
 
 ```bash
+git clone https://github.com/Nico-Slrn/ecoride.git
+cd ecoride
 npm install
 npm run dev
+```
+
+➡️ Accès : `http://localhost:3000`
+
+## 🌍 Déploiement
+
+Application déployée sur Vercel :
+👉 https://ecoride-black.vercel.app/
+
+## 🧪 Identifiants de test
+
+```json
+{
+  "email": "test@ecoride.com",
+  "motdepasse": "test123"
+}
 ```
